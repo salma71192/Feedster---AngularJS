@@ -20,9 +20,10 @@
     </div>
 
     <div class="posts" ng-controller="PostController">
-      <div class="container">
+      <div class="container" ng-repeat="post in posts">
 
         <div class="post">
+          <feedSterPost post="post"></feedSterPost>
         </div>
 
       </div>
